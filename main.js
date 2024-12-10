@@ -1,9 +1,10 @@
-let count = document.querySelector(".points-int")
-let circle = document.querySelector(".circle-wrapper")
-let zeroNum = 0
 
-circle.addEventListener("click", function(){
-    zeroNum++
 
-    count.innerHTML = zeroNum
-})
+        document.getElementById("nextButton").onclick = function() {
+            var userName = document.getElementById("inputval").value;
+            if (userName) {
+                window.location.href = "/main.html?name=" + encodeURIComponent(userName);
+            } else {
+                alert("Please enter a name!");
+            }
+        };
