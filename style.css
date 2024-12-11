@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; 
+    background-color: black;
+    font-family: "DM Sans";
+}
+
+
+.container {
+    max-width: 430px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.content {
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.name{
+    color: white;
+    user-select: none;
+    font-size: 30px;
+}
+
+.name-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.circle-wrapper{
+    margin-bottom: 100px;
+}
+
+.circle{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.circle:active{
+    background-color: rgba(255, 255, 255, 0.532);
+}
+
+.circle-text-wrapper{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    color: black;
+}
+
+.circle-text{
+    font-size: 32px;
+    user-select: none;
+}
+
+.points-count-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.points-str{
+    margin-left: 15px;
+}
+
+.points-count{
+    color: white;
+    font-size: 25px;
+    user-select: none;
+}
+
